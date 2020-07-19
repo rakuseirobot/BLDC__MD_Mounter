@@ -1,4 +1,92 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "BLDC__MD_Mounter"
+Date "2020-07-19"
+Rev ""
+Comp "Rakusei Robot Study Club"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Project HARP."
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x07_Odd_Even J?
+U 1 1 5F4ADCDC
+P 1750 1200
+F 0 "J?" H 1800 1717 50  0000 C CNN
+F 1 "Conn_02x07_Odd_Even" H 1800 1626 50  0000 C CNN
+F 2 "" H 1750 1200 50  0001 C CNN
+F 3 "~" H 1750 1200 50  0001 C CNN
+	1    1750 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1000 1550 1000
+Text Label 1100 1000 0    50   ~ 0
+HALL_A_N_1
+Wire Wire Line
+	2050 1000 2500 1000
+Text Label 2500 1000 2    50   ~ 0
+HALL_A_P_1
+Wire Wire Line
+	1100 1100 1550 1100
+Wire Wire Line
+	1100 1400 1550 1400
+Wire Wire Line
+	1100 1500 1550 1500
+Wire Wire Line
+	2500 1100 2050 1100
+Wire Wire Line
+	2500 1200 2050 1200
+Wire Wire Line
+	2500 1300 2050 1300
+Wire Wire Line
+	2500 1500 2050 1500
+Text Label 1100 1100 0    50   ~ 0
+HALL_B_N_1
+Text Label 1100 1400 0    50   ~ 0
+HALL_B_P_1
+Text Label 1100 1500 0    50   ~ 0
+HALL_C_P_1
+NoConn ~ 1550 900 
+NoConn ~ 2050 900 
+NoConn ~ 2050 1400
+Text Label 2500 1100 2    50   ~ 0
+COIL_A_1
+Text Label 2500 1200 2    50   ~ 0
+COIL_C_1
+Text Label 2500 1300 2    50   ~ 0
+COIL_B_1
+Text Label 2500 1500 2    50   ~ 0
+HALL_C_N_1
+$Comp
+L power:GND #PWR?
+U 1 1 5F4B4A81
+P 1000 1200
+F 0 "#PWR?" H 1000 950 50  0001 C CNN
+F 1 "GND" H 1005 1027 50  0000 C CNN
+F 2 "" H 1000 1200 50  0001 C CNN
+F 3 "" H 1000 1200 50  0001 C CNN
+	1    1000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F4B4FCC
+P 850 1300
+F 0 "#PWR?" H 850 1150 50  0001 C CNN
+F 1 "+5V" H 865 1473 50  0000 C CNN
+F 2 "" H 850 1300 50  0001 C CNN
+F 3 "" H 850 1300 50  0001 C CNN
+	1    850  1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 1200 1550 1200
+Wire Wire Line
+	850  1300 1550 1300
 $EndSCHEMATC
