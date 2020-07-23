@@ -819,21 +819,21 @@ Wire Wire Line
 Wire Wire Line
 	2750 6100 2300 6100
 Text Label 2750 6100 2    50   ~ 0
-RD_3
-Text Label 2750 6000 2    50   ~ 0
-PWM_3
-Text Label 2750 5900 2    50   ~ 0
-FR_3
-Text Label 2750 5800 2    50   ~ 0
-FG_3
-Text Label 2750 5700 2    50   ~ 0
 RD_4
-Text Label 2750 5600 2    50   ~ 0
+Text Label 2750 6000 2    50   ~ 0
 PWM_4
-Text Label 2750 5500 2    50   ~ 0
+Text Label 2750 5900 2    50   ~ 0
 FR_4
-Text Label 2750 5400 2    50   ~ 0
+Text Label 2750 5800 2    50   ~ 0
 FG_4
+Text Label 2750 5700 2    50   ~ 0
+RD_3
+Text Label 2750 5600 2    50   ~ 0
+PWM_3
+Text Label 2750 5500 2    50   ~ 0
+FR_3
+Text Label 2750 5400 2    50   ~ 0
+FG_3
 $Comp
 L power:+5V #PWR0129
 U 1 1 5F664472
