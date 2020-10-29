@@ -1,7 +1,0 @@
-"ID";"参照記号";"パッケージ";"数";"名称";"Supplier and ref";
-1;"REF**,REF**,REF**,REF**";"MountingHole_3.2mm_M3";4;"MountingHole_3.2mm_M3";;;
-2;"J4,J11,J14,J8";"PinSocket_1x08_P2.54mm_Vertical";4;"Conn_01x08_Female";;;
-3;"J13,J10,J7,J1";"PinSocket_2x07_P2.54mm_Vertical";4;"Conn_02x07_Odd_Even";;;
-4;"J12,J9,J6,J2";"PinHeader_2x07_P2.54mm_Vertical";4;"Conn_02x07_Odd_Even";;;
-5;"J5";"JST_VH_B2P-VH_1x02_P3.96mm_Vertical";1;"Conn_01x02_Male";;;
-6;"J3";"PinHeader_2x10_P2.54mm_Vertical";1;"Conn_02x10_Odd_Even";;;

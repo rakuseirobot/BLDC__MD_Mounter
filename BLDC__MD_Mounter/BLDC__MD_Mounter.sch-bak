@@ -759,22 +759,12 @@ Wire Notes Line
 	10750 650  900  650 
 Text Notes 900  3150 0    50   ~ 0
 Motor Drivers
-Text Label 1300 5400 0    50   ~ 0
-RD_1
-Text Label 1300 5500 0    50   ~ 0
-PWM_1
-Text Label 1300 5600 0    50   ~ 0
-FR_1
-Text Label 1300 5700 0    50   ~ 0
-FG_1
 Text Label 1300 5800 0    50   ~ 0
-RD_2
+RD_1
 Text Label 1300 5900 0    50   ~ 0
-PWM_2
+PWM_1
 Text Label 1300 6000 0    50   ~ 0
-FR_2
-Text Label 1300 6100 0    50   ~ 0
-FG_2
+FR_1
 Wire Wire Line
 	1300 5600 1800 5600
 Wire Wire Line
@@ -794,13 +784,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J3
 U 1 1 5F5B823A
-P 2000 5600
-F 0 "J3" H 2050 6217 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 2050 6126 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 2000 5600 50  0001 C CNN
-F 3 "~" H 2000 5600 50  0001 C CNN
-	1    2000 5600
-	1    0    0    -1  
+P 2100 5600
+F 0 "J3" H 2150 6217 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 2150 6126 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 2100 5600 50  0001 C CNN
+F 3 "~" H 2100 5600 50  0001 C CNN
+	1    2100 5600
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2750 5400 2300 5400
@@ -818,22 +808,18 @@ Wire Wire Line
 	2750 6000 2300 6000
 Wire Wire Line
 	2750 6100 2300 6100
-Text Label 2750 6100 2    50   ~ 0
-RD_3
-Text Label 2750 6000 2    50   ~ 0
-PWM_3
-Text Label 2750 5900 2    50   ~ 0
-FR_3
-Text Label 2750 5800 2    50   ~ 0
-FG_3
-Text Label 2750 5700 2    50   ~ 0
-RD_4
 Text Label 2750 5600 2    50   ~ 0
 PWM_4
 Text Label 2750 5500 2    50   ~ 0
 FR_4
 Text Label 2750 5400 2    50   ~ 0
 FG_4
+Text Label 2750 6000 2    50   ~ 0
+PWM_3
+Text Label 2750 5900 2    50   ~ 0
+FR_3
+Text Label 2750 5800 2    50   ~ 0
+FG_3
 $Comp
 L power:+5V #PWR0129
 U 1 1 5F664472
@@ -1239,4 +1225,18 @@ Wire Wire Line
 	6500 5200 6500 5450
 Wire Wire Line
 	6900 5200 6900 5450
+Text Label 1300 5600 0    50   ~ 0
+FR_2
+Text Label 1300 5500 0    50   ~ 0
+PWM_2
+Text Label 1300 5400 0    50   ~ 0
+RD_2
+Text Label 2750 5700 2    50   ~ 0
+RD_4
+Text Label 2750 6100 2    50   ~ 0
+RD_3
+Text Label 1300 6100 0    50   ~ 0
+FG_1
+Text Label 1300 5700 0    50   ~ 0
+FG_2
 $EndSCHEMATC
